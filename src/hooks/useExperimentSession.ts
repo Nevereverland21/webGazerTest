@@ -20,8 +20,6 @@ export function useExperimentSession(
   const locked = useRef(false);
   const latestGaze = useRef(gazeData);
   const latestPos = useRef(logPos);
-
-  // Mantener refs actualizados para los intervalos
   useEffect(() => { latestGaze.current = gazeData; }, [gazeData]);
   useEffect(() => { latestPos.current = logPos; }, [logPos]);
 

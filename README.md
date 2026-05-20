@@ -12,8 +12,8 @@ Un prototipo de investigación basado en web para medir la fatiga visual mediant
 
 1. **Clona el repositorio e instala las dependencias:**
    ```bash
-   git clone <tu-repositorio>
-   cd <nombre-del-proyecto>
+   git clone https://github.com/Nevereverland21/webGazerTest.git
+   cd webGazerTest
    npm install
    ```
 
@@ -45,4 +45,4 @@ VITE_OBJECT_ALPHA_DEG=2.0
 | `VITE_SCREEN_DIAGONAL_IN` | Tamaño físico en pulgadas de la pantalla. | Busca el modelo de tu monitor/laptop en internet (ej. `14`, `15.6`, `24`, `27`). |
 | `VITE_SCREEN_HRES` | Resolución Horizontal (Ancho). | Revisa la configuración de pantalla de tu SO (ej. `1920`, `2560`). |
 | `VITE_SCREEN_VRES` | Resolución Vertical (Alto). | Revisa la configuración de pantalla de tu SO (ej. `1080`, `1440`). |
-| `VITE_OBJECT_ALPHA_DEG` | Ángulo visual a evaluar en grados. | Se mantiene en `2.0` por defecto (tamaño aproximado de la fóvea humana). |
+| `VITE_OBJECT_ALPHA_DEG` | Ángulo visual a evaluar en grados. | Se mantiene en `2.0` por defecto. |
